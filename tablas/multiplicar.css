@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fredoka', sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    text-align: center;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background: #ff7675;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* BOTÓN */
+.btn-probar {
+    background: #ffeaa7;
+    color: #2d3436;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn-probar:hover {
+    background: #fdcb6e;
+    transform: scale(1.1);
+}
+
+/* MAIN */
+main {
+    padding: 30px 20px;
+}
+
+h1 {
+    margin-bottom: 25px;
+    font-size: 2.5rem;
+    color: #6c5ce7;
+}
+
+/* TABLA */
+.tabla {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 15px;
+    max-width: 600px;
+    margin: auto;
+}
+
+/* FILAS */
+.fila {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2d3436;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+}
+
+/* efecto divertido al pasar el mouse */
+.fila:hover {
+    background: #a29bfe;
+    color: white;
+    transform: translateY(-5px) scale(1.05);
+}
+
+/* FOOTER */
+footer {
+    margin-top: 30px;
+    padding: 15px;
+    background: #00cec9;
+    color: white;
+    font-size: 14px;
+}
