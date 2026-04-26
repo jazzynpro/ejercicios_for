@@ -7,22 +7,25 @@
     <link rel="stylesheet" href="multiplicar.css">
     <script src="multiplicar.js"></script>
 
-    <!-- Fuente divertida -->
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <header>
          
-        <button class="btn-probar" onclick="generarTablas();">🎮 ¡PROBAR!</button>
+        
+    👉 Escribe un número y presiona <strong>PROBAR</strong> para ver su tabla de multiplicar
+</p>
     </header>
 
     <main>
         <h1>✨ Tablas de Multiplicar ✨</h1>
         <div class="input-container">
     <input type="number" id="inputNumero" placeholder="Escribe un número">
+    
     <button class="btn-probar" onclick="generarTablas()">PROBAR</button>
 </div>
+<p id="mensaje"></p>
 
 <div id="divTablas" class="tabla">
     <!-- Aquí se generan las tablas -->

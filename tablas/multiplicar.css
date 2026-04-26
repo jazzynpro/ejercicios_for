@@ -109,3 +109,72 @@ footer {
     border-color: #a29bfe;
     box-shadow: 0 0 10px rgba(162, 155, 254, 0.5);
 }
+/* 📱 CELULARES */
+@media (max-width: 600px) {
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    main {
+        padding: 20px 10px;
+    }
+
+    .btn-probar {
+        font-size: 14px;
+        padding: 10px 18px;
+    }
+
+    #inputNumero {
+        width: 100%;
+        max-width: 250px;
+        font-size: 14px;
+    }
+
+    .tabla {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .fila {
+        font-size: 16px;
+        padding: 15px;
+    }
+}
+
+/* 📲 TABLETS */
+@media (min-width: 601px) and (max-width: 900px) {
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .tabla {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .fila {
+        font-size: 18px;
+    }
+}
+.instrucciones {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #2d3436;
+}
+
+#mensaje {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* mensaje error */
+.error {
+    color: #d63031;
+}
+
+/* mensaje éxito */
+.ok {
+    color: #00b894;
+}
