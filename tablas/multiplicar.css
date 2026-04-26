@@ -83,3 +83,29 @@ footer {
     color: white;
     font-size: 14px;
 }
+/* CONTENEDOR DEL INPUT */
+.input-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/* INPUT */
+#inputNumero {
+    padding: 12px;
+    border-radius: 20px;
+    border: 2px solid #6c5ce7;
+    font-size: 16px;
+    outline: none;
+    width: 180px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+/* EFECTO AL HACER CLICK */
+#inputNumero:focus {
+    border-color: #a29bfe;
+    box-shadow: 0 0 10px rgba(162, 155, 254, 0.5);
+}
